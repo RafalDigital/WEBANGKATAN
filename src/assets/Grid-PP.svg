@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1268.5,-222.5)">
+        <g transform="matrix(-1,0,0,1,1366,-448)">
+            <g transform="matrix(0.50542,0,0,0.993411,-255.009875,169.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,697.459978,503.925753)">
+                    <use xlink:href="#_Image1" x="77" y="17" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-255.009875,189.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,697.459978,483.793094)">
+                    <use xlink:href="#_Image2" x="77" y="37" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-235.009875,189.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,657.888889,483.793094)">
+                    <use xlink:href="#_Image1" x="57" y="37" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-255.009875,209.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,697.459978,463.660435)">
+                    <use xlink:href="#_Image3" x="77" y="57" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-235.009875,209.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,657.888889,463.660435)">
+                    <use xlink:href="#_Image2" x="57" y="57" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-215.009875,209.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,618.317801,463.660435)">
+                    <use xlink:href="#_Image1" x="37" y="57" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-255.009875,229.894742)">
+                <rect x="524.336" y="521.542" width="19.786" height="10.066" style="fill:rgb(0,86,255);fill-opacity:0;stroke:white;stroke-width:1.27px;"/>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-235.009875,229.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,657.888889,443.527775)">
+                    <use xlink:href="#_Image3" x="57" y="77" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-215.009875,229.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,618.317801,443.527775)">
+                    <use xlink:href="#_Image2" x="37" y="77" width="11px" height="11px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.25271,0,0,0.496705,-100.504938,431.947371)">
+                <g transform="matrix(-3.957109,0,0,2.013266,783.527096,480.269878)">
+                    <use xlink:href="#_Image4" x="60" y="20" width="6px" height="6px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.25271,0,0,0.496705,-120.004938,411.947371)">
+                <g transform="matrix(-3.957109,0,0,2.013266,860.690719,520.535197)">
+                    <use xlink:href="#_Image4" x="79.5" y="0" width="6px" height="6px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.25271,0,0,0.496705,-80.504938,451.947371)">
+                <g transform="matrix(-3.957109,0,0,2.013266,704.384919,440.00456)">
+                    <use xlink:href="#_Image4" x="40" y="40" width="6px" height="6px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.25271,0,0,0.496705,-60.504938,471.947371)">
+                <g transform="matrix(-3.957109,0,0,2.013266,625.242741,399.739242)">
+                    <use xlink:href="#_Image4" x="20" y="60" width="6px" height="6px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.25271,0,0,0.496705,-40.504938,491.447371)">
+                <g transform="matrix(-3.957109,0,0,2.013266,546.100564,360.480556)">
+                    <use xlink:href="#_Image4" x="0" y="79.5" width="6px" height="6px"/>
+                </g>
+            </g>
+            <g transform="matrix(0.50542,0,0,0.993411,-195.009875,229.894742)">
+                <g transform="matrix(-1.978554,0,0,1.006633,578.746712,443.527775)">
+                    <use xlink:href="#_Image1" x="17" y="77" width="11px" height="11px"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="11px" height="11px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAL0lEQVQYlWP8//9/PAMDAzsDYfCT4f///2lEKGT4//9/GhMxCmFgVDHZihlJiUEAMzsPkR36wKgAAAAASUVORK5CYII="/>
+        <image id="_Image2" width="11px" height="11px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAMklEQVQYle3RIQ4AIAzAwEJQfB69j84WhWZBU32uTV3A5F6iRgGiRq/A08fPeABZHJMbW1sRUEZ6FHcAAAAASUVORK5CYII="/>
+        <image id="_Image3" width="11px" height="11px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVQYlWP8////PgYGBj4GwuATw////88QoZDh////Z5iIUQgDo4rJVszCwMDwiciI+QQAZpISEI41Go4AAAAASUVORK5CYII="/>
+        <image id="_Image4" width="6px" height="6px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAALElEQVQImWP8//+/AQMDAzMDKvjL8P//f2M0QYb///8bM6ELwgDpEoy4LAcAcJUOw93X0VEAAAAASUVORK5CYII="/>
+    </defs>
+</svg>

@@ -1,0 +1,14 @@
+[
+    {
+        "nama": "Tes 1",
+        "date": "10/12/2026",
+        "foto": "/images/ahmad.jpg",
+        "pesan": "Semoga kita semua sukses."
+    },
+    {
+        "nama": "Tes 2",
+        "date": "10/10/2026",
+        "foto": "/images/ahmad.jpg",
+        "pesan": "Semoga kita semua masuk surga."
+    }
+]
