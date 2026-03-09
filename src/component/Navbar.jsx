@@ -140,11 +140,15 @@ function MobileSettings({isSettings, isDarkHandler, isDark}) {
 }
 
 function DesktopSettings({isSettings, isDarkHandler, isDark}) {
-    <div className={`${isSettings ? 'fixed' : 'hidden'} border-top border-[#0056FE] right-0 w-1/2 h-full bg-white top-12 z-40 pt-2`}>
+    return ( 
+        <>
+    <div className={`${isSettings ? 'fixed' : 'hidden'} border border-[#0056FE] right-5 w-1/5 h-content shadow-md bg-white top-20 rounded-2xl z-40 p-2`}>
                 <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-2 max-sm:px-4">
                     <ItemSettings state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
                 </div>
     </div>
+        </>
+    )
 }
 
 
