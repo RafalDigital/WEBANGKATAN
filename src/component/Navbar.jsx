@@ -142,9 +142,14 @@ function MobileSettings({isSettings, isDarkHandler, isDark}) {
 function DesktopSettings({isSettings, isDarkHandler, isDark}) {
     return ( 
         <>
-    <div className={`${isSettings ? 'fixed' : 'hidden'} border border-[#0056FE] right-5 w-1/5 h-content shadow-md bg-white top-20 rounded-2xl z-40 p-2`}>
-                <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-2 max-sm:px-4">
-                    <ItemSettings state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
+    <div className={`${isSettings ? 'fixed' : 'hidden'} ring-1 ring-black/15 right-5 w-[260px] h-content shadow-xl bg-white top-20 rounded-2xl z-40 p-1 pt-1.5`}>
+                <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-2 max-sm:px-4 relative">
+                    <h1 className="flex gap-2 text-[20px] pl-2" ><i className="ri-settings-3-line text-2xl"></i>Settings</h1>
+                    <span className="w-11/12 flex self-center h-0.5 bg-[#0056FE] rounded-full"></span>
+                    <DesktopItemSettings logo={'ri-sun-fill'} state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
+                    <DesktopItemSettings logo={'ri-sun-fill'} state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
+                    <DesktopItemSettings logo={'ri-sun-fill'} state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
+                    <DesktopItemSettings logo={'ri-sun-fill'} state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/> 
                 </div>
     </div>
         </>
@@ -159,6 +164,21 @@ function ItemSettings({state, content, setState, on, off}) {
         </>
     )
     
+}
+
+function DesktopItemSettings({state, content, setState, on, off, logo}) {
+     return (
+    <a onClick={setState} className="group flex items-center justify-between p-3 rounded-lg hover:bg-blue-100 active:bg-blue-600 active:text-white transition">
+      <div className="flex items-center gap-2">
+        <i className={`text-lg ${logo}`}></i>
+        <span>{content}</span>
+      </div>
+
+      <span className="text-xs bg-blue-600 text-white px-3 py-1 rounded-full min-w-[60px] text-center group-active:bg-white group-active:text-blue-600">
+        {state ? on : off}
+      </span>
+    </a>
+  );
 }
 
 
