@@ -57,10 +57,10 @@ export default function Navbar() {
         </div>
         <div className="nav-links">
           <ul className="flex gap-1.5 -ml-32 max-lg:gap-0.5 max-lg:-ml-12 max-md:hidden">
-            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#Hero' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE]`}>Beranda</a></li>
-            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE]`}>Siswa</a></li>
-            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE]`}>Galeri</a></li>
-            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#Pesan' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE]`}>Pesan</a></li>
+            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#Hero' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE] ${isSettings ? 'text-[#0056FE]' : ''}`}>Beranda</a></li>
+            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE] ${isSettings ? 'text-[#0056FE]' : ''}`}>Siswa</a></li>
+            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE] ${isSettings ? 'text-[#0056FE]' : ''}`}>Galeri</a></li>
+            <li className="px-3.5 py-3 w-24 text-center max-lg:px-1.5"><a href='#Pesan' className={`text-md ${isScrolled ? 'text-[#0056FE]' : 'text-white'} max-xl:text-[#0056FE] ${isSettings ? 'text-[#0056FE]' : ''}`}>Pesan</a></li>
           </ul>
         </div>
 
@@ -86,8 +86,8 @@ export default function Navbar() {
       </nav>
 
       <MobileMenu isOpenHandler={isOpenHandler} isOpen={isOpen} isSettingsHandler={isSettingsHandler}/>
-      <MobileSettings isSettings={isSettings} isDark={isDark} setIsDark={setIsDark}/>
-      <DesktopSettings isSettings={isSettings} isDark={isDark} setIsDark={setIsDark}/>
+      <MobileSettings isSettings={isSettings} isDark={isDark} isDarkHandler={isDarkHandler}/>
+      <DesktopSettings isSettings={isSettings} isDark={isDark} isDarkHandler={isDarkHandler}/>
 
       <div className={`bg-blur fixed w-full h-full bg-black/40 backdrop-blur-xs inset-1 md:hidden z-30 ${isOpen || isSettings ? '' : 'pointer-events-none opacity-0'}`} onClick={blurHandler}></div>
     </>
