@@ -146,3 +146,9 @@ function ItemSettings({state, content, setState, on, off}) {
     )
     
 }
+
+
+// Yang Harus Di kerjakan :
+// Mobile menu bagian button settinb masih gabung di atas (harus di bawah)
+// dark mode belum berfungsi
+// desktop settings belum ada
