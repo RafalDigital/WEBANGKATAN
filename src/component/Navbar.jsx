@@ -9,6 +9,12 @@ export default function Navbar() {
   //  Settings
    const [isSettings, setIsSettings] = useState(false);
 
+   const [isDark, setIsDark] = useState(false)
+
+    function isDarkHandler() {
+        setIsDark((o) => !o)
+    }
+
   window.addEventListener('scroll', function() {
     if (this.window.scrollY > 0) {
       setScrolled(true)
@@ -80,9 +86,10 @@ export default function Navbar() {
       </nav>
 
       <MobileMenu isOpenHandler={isOpenHandler} isOpen={isOpen} isSettingsHandler={isSettingsHandler}/>
-      <MobileSettings isSettings={isSettings}/>
+      <MobileSettings isSettings={isSettings} isDark={isDark} setIsDark={setIsDark}/>
+      <DesktopSettings isSettings={isSettings} isDark={isDark} setIsDark={setIsDark}/>
 
-      <div className={`bg-blur fixed w-full h-full bg-black/40 backdrop-blur-xs inset-1 z-30 ${isOpen || isSettings ? '' : 'pointer-events-none opacity-0'}`} onClick={blurHandler}></div>
+      <div className={`bg-blur fixed w-full h-full bg-black/40 backdrop-blur-xs inset-1 md:hidden z-30 ${isOpen || isSettings ? '' : 'pointer-events-none opacity-0'}`} onClick={blurHandler}></div>
     </>
   )
 }
@@ -120,13 +127,7 @@ function ItemMobileMenu({logo, content, href, isOpenHandler}) {
     )
 }
 
-function MobileSettings({isSettings}) {
-    const [isDark, setIsDark] = useState(false)
-
-    function isDarkHandler() {
-        setIsDark((o) => !o)
-    }
-
+function MobileSettings({isSettings, isDarkHandler, isDark}) {
     return (
         <>
             <div className={`${isSettings ? 'fixed' : 'hidden'} md:hidden border-top border-[#0056FE] right-0 w-1/2 h-full bg-white top-12 z-40 pt-2`}>
@@ -137,6 +138,15 @@ function MobileSettings({isSettings}) {
         </>
     )
 }
+
+function DesktopSettings({isSettings, isDarkHandler, isDark}) {
+    <div className={`${isSettings ? 'fixed' : 'hidden'} border-top border-[#0056FE] right-0 w-1/2 h-full bg-white top-12 z-40 pt-2`}>
+                <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-2 max-sm:px-4">
+                    <ItemSettings state={isDark} content={'Dark Mode'} setState={isDarkHandler} on={'Dark'} off={'Light'}/>
+                </div>
+    </div>
+}
+
 
 function ItemSettings({state, content, setState, on, off}) {
     return (
@@ -151,4 +161,3 @@ function ItemSettings({state, content, setState, on, off}) {
 // Yang Harus Di kerjakan :
 // Mobile menu bagian button settinb masih gabung di atas (harus di bawah)
 // dark mode belum berfungsi
-// desktop settings belum ada
